@@ -50,7 +50,7 @@ public class HttpUtility {
 	    } catch (IOException e) {
 	        e.printStackTrace();
 	    } finally {
-	        httpGet.releaseConnection(); // stop connection
+	        //httpGet.releaseConnection(); // stop connection
 	    }
 	    return body.toString(); // return the String
 	}

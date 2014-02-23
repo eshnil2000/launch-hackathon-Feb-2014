@@ -41,7 +41,7 @@ public class InvisibleHandParser {
 		// get best_page dict
 		JSONObject page = (JSONObject)result.get("best_page");
 		
-		BestRetailer bestRetailer = new BestRetailer((String)page.get("retailer_name"), (double)page.get("price"));
+		BestRetailer bestRetailer = new BestRetailer((String)page.get("retailer_name"), Double.parseDouble((String)page.get("price")));
 		
 		return bestRetailer;
 	}
