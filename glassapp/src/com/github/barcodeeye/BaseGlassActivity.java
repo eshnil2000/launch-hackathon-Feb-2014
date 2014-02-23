@@ -65,6 +65,8 @@ public class BaseGlassActivity extends Activity implements FingerListener, Scrol
         gestureDetector.setBaseListener(new GestureDetector.BaseListener() {
             @Override
             public boolean onGesture(Gesture gesture) {
+            	Log.v(TAG, "some gesture");
+        
                 if (gesture == Gesture.TAP) {
                     Log.v(TAG, "onSwipeTap");
                     return onTap();

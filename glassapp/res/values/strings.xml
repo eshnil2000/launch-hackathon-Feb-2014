@@ -15,7 +15,7 @@
  limitations under the License.
 -->
 <resources>
-
+	<string name="menu_item_1">Confirm</string>
     <string name="app_name">Barcode Eye</string>
     <string name="app_picker_name">Applications</string>
     <string name="bookmark_picker_name">Bookmarks</string>
